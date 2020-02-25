@@ -14,16 +14,16 @@ int main(){
 	int **z=&x;
 	cout<<"\n\n\n";
 	cout<<setw(10)<<"a"<<setw(10)<<"b"<<setw(10)<<"c"<<setw(10)<<"x"<<setw(10)<<"y"<<setw(10)<<"z"<<"\n";
-	cout<<"----------------------------------------------------------------------------------------\n";
-	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<*x<<setw(10)<<*y<<setw(10)<<*z<<"\n";
+	cout<<"--------------------------------------------------------------------------------\n";
+	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<x<<setw(10)<<y<<setw(10)<<z<<"\n";
 	cout<<setw(10)<<&a<<setw(10)<<&b<<setw(10)<<&c<<setw(10)<<x<<setw(10)<<y<<setw(10)<<z<<"\n";
     c="F";
-    cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<*x<<setw(10)<<*y<<setw(10)<<*z<<"\n";
+    cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<x<<setw(10)<<y<<setw(10)<<z<<"\n";
 	*y="W";
-	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<*x<<setw(10)<<*y<<setw(10)<<*z<<"\n";
+	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<x<<setw(10)<<y<<setw(10)<<z<<"\n";
 	*x=6;
-	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<*x<<setw(10)<<*y<<setw(10)<<*z<<"\n";
+	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<x<<setw(10)<<y<<setw(10)<<z<<"\n";
 	**z=7;
-	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<*x<<setw(10)<<*y<<setw(10)<<*z<<"\n";
+	cout<<setw(10)<<a<<setw(10)<<b<<setw(10)<<c<<setw(10)<<x<<setw(10)<<y<<setw(10)<<z<<"\n";
 	return 0;
 }
