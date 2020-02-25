@@ -19,3 +19,30 @@ int main(){
 }
 
 //Write definition of shuffle() here 
+void shuffle(int &a,int &b, int &c, int &d){
+ for(int i=1;i<10;i++){
+	 int x=rand()%3;
+	 int temp;
+	 if(x==0)
+	 {     temp=a;
+	        a=b;
+			b=temp;
+
+	 }
+     else if(x==1)
+	 {
+		 temp=b;
+		 b=c;
+		 c=temp;
+
+	 }
+	 else
+	 {
+	     temp=c;
+		 c=d;
+		 d=temp;
+	 }
+	 
+ }
+
+}
